@@ -1,0 +1,15 @@
+<div ...attributes {{on-click-outside this.hideMenu}}>
+  {{yield (hash
+    MenuActionButton=(component
+      'menu-action-button'
+      toggleMenu=this.toggleMenu
+    )
+    MenuItems=(component
+      'menu-items'
+      showMenu=this.showMenu
+    )
+    MenuItem=(component
+      'menu-item'
+    )
+  )}}
+</div>

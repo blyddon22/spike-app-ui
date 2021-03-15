@@ -10,7 +10,8 @@ export default Controller.extend({
   get headerLinks() {
     return [
       { route: 'index', name: 'Index'},
-      { route: 'other', name: 'Other'}
+      { route: 'other', name: 'Other'},
+      { route: 'dropdowns', name: 'Dropdowns'}
     ]
   }
 });
